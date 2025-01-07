@@ -13,9 +13,9 @@ end)
 
 local function scheme_for_appearance(appearance)
 	if appearance:find("Dark") then
-		return "tokyonight_moon"
+		return "Tokyo Night"
 	else
-		return "tokyonight_day"
+		return "Tokyo Night (Day)"
 	end
 end
 
@@ -46,7 +46,7 @@ config.keys = {
 		action = act.SpawnCommandInNewTab({
 			cwd = os.getenv("WEZTERM_CONFIG_DIR"),
 			args = {
-				"/usr/local/bin/nvim",
+				"/opt/homebrew/bin/nvim",
 				os.getenv("WEZTERM_CONFIG_FILE"),
 			},
 		}),
