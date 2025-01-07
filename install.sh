@@ -20,6 +20,7 @@ brew install bat \
     tldr \
     ripgrep \
     zoxide
+  mise \
 
 # casks
 brew install --cask \
@@ -45,9 +46,6 @@ mas install 1333542190 # 1Password
 # macOs settings
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
-
-# languages
-brew install asdf
 
 # fish
 cp config.fish ~/.config/fish/config.fish
