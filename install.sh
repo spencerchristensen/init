@@ -32,7 +32,6 @@ brew install --cask \
     rectangle \
     slack \
     tableplus \
-    tunnelblick \
     wezterm
 
 # App Store
