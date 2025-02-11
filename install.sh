@@ -31,6 +31,8 @@ brew install --cask \
   rapidapi \
   rectangle \
   slack \
+  sublime-text \
+  sublime-merge \
   tableplus \
   wezterm
 
@@ -45,8 +47,6 @@ mas install 1333542190 # 1Password
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
 
-# fish
 cp config.fish ~/.config/fish/config.fish
-
-# wezterm
+cp Preferences.sublime-settings ~/Library/Application\ Support/Sublime Text/Packages/User/Preferences.sublime-settings
 cp wezterm.lua ~/.wezterm.lua
