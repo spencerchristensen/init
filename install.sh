@@ -23,6 +23,7 @@ brew install bat \
 
 # casks
 brew install --cask \
+  alfred \
   docker \
   firefox \
   google-chrome \
@@ -37,7 +38,6 @@ brew install --cask \
 mas install 497799835  # Xcode
 mas install 640199958  # Developer
 mas install 1451685025 # WireGuard
-mas install 1091189122 # Bear
 mas install 775737590  # iA Writer
 mas install 1333542190 # 1Password
 

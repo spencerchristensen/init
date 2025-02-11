@@ -17,7 +17,12 @@ if status is-interactive
 
     fzf --fish | source
     zoxide init fish | source
-    alias vim nvim
     mise activate fish | source
-    set -x EDITOR nvim
+
+    alias vim nvim
+
+    fish_add_path '/Applications/Sublime Text.app/Contents/SharedSupport/bin'
+    fish_add_path '/Applications/Sublime Merge.app/Contents/SharedSupport/bin'
+
+    source /Users/spencer.christensen/.config/op/plugins.sh
 end
