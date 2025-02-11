@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+enter"],
+        "command": "current_result"
+    },
+    {
+        "keys": ["ctrl+x"],
+        "command": "toggle_markdown_task"
+    }
+] 

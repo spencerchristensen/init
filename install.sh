@@ -48,5 +48,4 @@ defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 10
 
 cp config.fish ~/.config/fish/config.fish
-cp Preferences.sublime-settings ~/Library/Application\ Support/Sublime Text/Packages/User/Preferences.sublime-settings
 cp wezterm.lua ~/.wezterm.lua
